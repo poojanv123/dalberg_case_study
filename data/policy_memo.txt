@@ -1,0 +1,12 @@
+Climate Resilience Fund — Allocation Guidance (Internal Draft)
+
+Budget: USD 25,000,000 for a 3-year portfolio.
+
+Non-negotiable constraints
+- Equity: at least 40% of total funds must be allocated to districts in the top poverty quintile (by poverty_index).
+- Coverage: every region must receive at least one funded district.
+- Concentration: no district may receive more than USD 1,200,000 total allocation.
+- Portfolio balance: at least 30% of funding must go to heat-focused interventions (hazard_focus == 'heat').
+
+Evidence standards
+- Any claims derived from field notes must be grounded with citations (file name + quoted snippet).

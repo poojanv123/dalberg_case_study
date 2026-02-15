@@ -1,0 +1,19 @@
+Field Note | 2024-01-21
+Country: Cordania | Region: West
+District: D016 (D-016)
+Partner: InfraTrust Consortium
+Intervention: Critical Facility Resilience (Enhanced) [I18]
+
+Summary: Partner check-in completed. Severity rating (1–5): 5.
+
+Key observations:
+- critical components are back-ordered with the supplier. Estimated schedule impact: ~9 weeks.
+- field engineers require additional technical support.
+- Budget note: indicative cost pressure of ~19.8% versus plan (not yet approved).
+
+Mitigation actions proposed:
+- Diversify suppliers; lock in critical items early; use regional procurement hubs.
+- Add surge staffing; provide technical assistance; tighten reporting cadence.
+
+Next steps:
+- Collect missing GPS-tagged photos and baseline survey forms.

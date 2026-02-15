@@ -1,0 +1,17 @@
+Field Note | 2023-04-16
+Country: Belvaria | Region: Central
+District: D055 (D-055)
+Partner: GreenWorks Alliance
+Intervention: Cooling Centers & Outreach (Standard) [I11]
+
+Summary: Partner check-in completed. Severity rating (1–5): 2.
+
+Key observations:
+- baseline survey coverage is below the minimum threshold. Estimated schedule impact: ~3 weeks.
+- Budget note: indicative cost pressure of ~3.2% versus plan (not yet approved).
+
+Mitigation actions proposed:
+- Standardize indicators; audit data capture; implement validation checks.
+
+Next steps:
+- Collect missing GPS-tagged photos and baseline survey forms.

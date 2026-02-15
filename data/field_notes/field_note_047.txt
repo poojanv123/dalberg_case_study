@@ -1,0 +1,19 @@
+Field Note | 2024-07-21
+Country: Belvaria | Region: East
+District: D050 (D-050)
+Partner: RapidRelief Local
+Intervention: Early Warning System Upgrade (Standard) [I17]
+
+Summary: Partner check-in completed. Severity rating (1–5): 4.
+
+Context note: Heavy rainfall events have become more disruptive this season, increasing site access issues.
+
+Key observations:
+- rework was required due to poor drainage gradients. Estimated schedule impact: ~7 weeks.
+- Budget note: indicative cost pressure of ~10.1% versus plan (not yet approved).
+
+Mitigation actions proposed:
+- Increase QA/QC inspections; enforce hold points; replace non-performing subcontractors.
+
+Next steps:
+- Collect missing GPS-tagged photos and baseline survey forms.

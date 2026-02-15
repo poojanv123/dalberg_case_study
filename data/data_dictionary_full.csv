@@ -1,0 +1,68 @@
+file,column,type,unit,definition,typical_range,notes
+district_profile.csv,district_id,string,n/a,Canonical district identifier (D001..D120).,,
+district_profile.csv,district_code,string,n/a,Primary join key used in other files (format D-001).,D-001 to D-120,Minor formatting issues may appear in project_history.csv.
+district_profile.csv,district_name,string,n/a,Human-readable name.,,
+district_profile.csv,country,string,n/a,Synthetic country name.,,
+district_profile.csv,region,string,n/a,Synthetic region name (North/South/East/West/Central).,,
+district_profile.csv,lat,float,degrees,Approximate latitude (synthetic).,,
+district_profile.csv,lon,float,degrees,Approximate longitude (synthetic).,,
+district_profile.csv,population,int,people,Estimated district population.,~50k–~1.8M,
+district_profile.csv,poverty_index,float,0–1,Higher means higher poverty.,0.15–0.90,Used for equity constraint (top quintile).
+district_profile.csv,urbanization_rate,float,0–1,Share of population living in urban areas.,0.05–0.95,
+district_profile.csv,baseline_infrastructure_index,float,~0–1.4,Composite infrastructure readiness (higher is better).,0.15–1.35,
+district_profile.csv,health_access_index,float,0–1,Proxy for access to health services (higher is better).,0.05–0.95,Some missing values.
+district_profile.csv,mobile_penetration,float,0–1,Proxy for mobile access (higher is better).,0.10–0.98,Some missing values.
+district_profile.csv,grid_reliability_index,float,0–1,Proxy for reliability of electricity supply.,0.05–0.95,
+district_profile.csv,historical_flood_loss_usd,int,USD,Estimated annualized historical flood-related losses (synthetic).,~1e7–1e10,One outlier exists.
+district_profile.csv,historical_heat_loss_usd,int,USD,Estimated annualized historical heat-related losses (synthetic).,~1e7–1e10,
+district_profile.csv,past_programs_count,int,count,Number of prior resilience programs recorded (synthetic).,0–10,
+hazard_timeseries.csv,district_code,string,n/a,Join key to district_profile.district_code.,,
+hazard_timeseries.csv,month,string (YYYY-MM),month,Monthly timestamp.,,
+hazard_timeseries.csv,flood_index,float,0–100,Relative flood hazard intensity index (higher = worse).,0–100,Seasonal; mild upward trend in flood-prone districts.
+hazard_timeseries.csv,heat_index,float,0–100,Relative heat hazard intensity index (higher = worse).,0–100,Seasonal; clear upward trend from 2021→2024.
+hazard_timeseries.csv,rainfall_anomaly_z,float,z-score,Standardized rainfall anomaly for the month (higher = wetter).,-3–3,Correlated with flood_index.
+hazard_timeseries.csv,temp_anomaly_z,float,z-score,Standardized temperature anomaly for the month (higher = hotter).,-3–3,Correlated with heat_index.
+hazard_timeseries.csv,ndvi,float,0–1,Vegetation greenness proxy (lower = drier/less green).,0.05–0.85,Negatively correlated with heat/flood stress.
+hazard_timeseries.csv,flood_events_count,int,count/month,Number of flood events recorded this month (synthetic).,0–10,Increases with flood_index.
+hazard_timeseries.csv,heatwave_days,int,days/month,Number of heatwave days recorded this month (synthetic).,0–31,Increases with heat_index.
+interventions_catalog.csv,intervention_id,string,n/a,Intervention identifier (I01..I18).,,
+interventions_catalog.csv,intervention_name,string,n/a,Intervention name with tier (Basic/Standard/Enhanced).,,
+interventions_catalog.csv,hazard_focus,string,"{flood,heat,both}",Primary hazard focus for the intervention.,,
+interventions_catalog.csv,unit_cost_usd,int,USD,Typical unit cost for one district-scale deployment.,180k–1.5M,
+interventions_catalog.csv,expected_risk_reduction_mean,float,fraction,Expected mean fractional reduction in risk.,0.05–0.35,
+interventions_catalog.csv,expected_risk_reduction_low,float,fraction,Low bound on expected fractional reduction.,0.03–0.30,
+interventions_catalog.csv,expected_risk_reduction_high,float,fraction,High bound on expected fractional reduction.,0.08–0.45,
+interventions_catalog.csv,implementation_months,int,months,Typical duration to implement in a district.,3–22,
+interventions_catalog.csv,complexity_1_5,int,1–5,Implementation complexity (higher is harder).,1–5,
+interventions_catalog.csv,prerequisites,string,n/a,Most common prerequisite or gating requirement.,,
+project_history.csv,project_id,string,n/a,Project identifier (P00001..).,,
+project_history.csv,district_code,string,n/a,District code where the project was implemented.,D-001 style,Small fraction uses alternate formatting.
+project_history.csv,intervention_id,string,n/a,Intervention id (join to interventions_catalog).,,
+project_history.csv,partner,string,n/a,Implementing partner organization name.,,
+project_history.csv,start_date,date (YYYY-MM-DD),date,Project start date.,,
+project_history.csv,planned_end_date,date (YYYY-MM-DD),date,Planned end date based on typical duration.,,
+project_history.csv,actual_end_date,date (YYYY-MM-DD),date,Observed end date.,,
+project_history.csv,cost_usd,int,USD,Total spend for the project (synthetic).,100k–3M,
+project_history.csv,baseline_risk_score,float,0–100,Baseline district risk score used for internal planning (synthetic).,0–100,
+project_history.csv,total_delay_days,int,days,Total schedule delay beyond plan (synthetic).,0–300,
+project_history.csv,achieved_outcome_score,float,0–100,Overall outcome score based on internal rubric (synthetic).,0–100,
+project_history.csv,realized_risk_reduction,float,fraction,Estimated realized fractional risk reduction (synthetic).,0–0.50,
+project_history.csv,delivered_on_time,int,0/1,Label: 1 if total_delay_days ≤ 45; else 0.,0 or 1,Recommended feasibility label.
+project_history.csv,achieved_min_outcome,int,0/1,Alternate label: 1 if achieved_outcome_score ≥ 60; else 0.,0 or 1,
+project_history.csv,community_engagement_score,float,0–100,Proxy for local engagement quality (synthetic).,0–100,
+project_history.csv,post_project_audit_score,float,0–100,Post-hoc audit score (available only after completion).,0–100,Leakage risk: do not use as predictor.
+project_history.csv,post_project_satisfaction_score,float,0–100,Post-hoc beneficiary satisfaction score.,0–100,Leakage risk: do not use as predictor.
+field_notes/,Header fields,text,n/a,"Each note includes date, country/region, district id and code, partner, intervention.",,
+field_notes/,Severity rating,int,1–5,Operational severity recorded by field team (higher = more severe).,1–5,
+field_notes/,Estimated schedule impact,int,weeks,Approximate schedule impact referenced in the note.,0–12,
+field_notes/,Mitigation actions proposed,text,n/a,Suggested mitigation steps linked to the primary risk category.,,
+field_notes/,Context note (trend cue),text,n/a,Some notes include an explicit line indicating worsening heatwaves/rainfall disruptions.,,
+gold_questions.json,id,string,n/a,Question identifier.,,
+gold_questions.json,question,string,n/a,Question text (answerable from field notes).,,
+gold_questions.json,expected_answer,string,n/a,Expected answer text.,,
+gold_questions.json,evidence,array,n/a,File and matching hint to locate evidence.,,
+risk_labels_seed.csv,snippet_id,string,n/a,Snippet identifier.,,
+risk_labels_seed.csv,source_file,string,n/a,Field note filename where snippet appears.,,
+risk_labels_seed.csv,district_id,string,n/a,Canonical district id.,,
+risk_labels_seed.csv,text,string,n/a,Snippet text.,,
+risk_labels_seed.csv,risk_category,string,n/a,Single risk label from the taxonomy (optional stretch).,,

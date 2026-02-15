@@ -1,0 +1,17 @@
+Field Note | 2024-03-03
+Country: Belvaria | Region: North
+District: D015 (D-015)
+Partner: BlueRiver Implementers
+Intervention: Community Response Training (Enhanced) [I09]
+
+Summary: Partner check-in completed. Severity rating (1–5): 4.
+
+Key observations:
+- contractor workmanship failed the first quality inspection. Estimated schedule impact: ~9 weeks.
+- Budget note: indicative cost pressure of ~16.3% versus plan (not yet approved).
+
+Mitigation actions proposed:
+- Increase QA/QC inspections; enforce hold points; replace non-performing subcontractors.
+
+Next steps:
+- Collect missing GPS-tagged photos and baseline survey forms.

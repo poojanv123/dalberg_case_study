@@ -1,0 +1,19 @@
+Field Note | 2024-08-11
+Country: Belvaria | Region: East
+District: D105 (D-105)
+Partner: Delta Engineering
+Intervention: Reflective Road Surface (Enhanced) [I12]
+
+Summary: Partner check-in completed. Severity rating (1–5): 2.
+
+Key observations:
+- materials delivered were below specification and had to be replaced. Estimated schedule impact: ~5 weeks.
+- procurement is delayed due to vendor bidding disputes.
+- Budget note: indicative cost pressure of ~9.1% versus plan (not yet approved).
+
+Mitigation actions proposed:
+- Increase QA/QC inspections; enforce hold points; replace non-performing subcontractors.
+- Escalate procurement approvals; pre-qualify vendors; use framework contracts where feasible.
+
+Next steps:
+- Schedule joint review with district authorities and partner.

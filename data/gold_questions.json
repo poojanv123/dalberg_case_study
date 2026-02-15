@@ -1,0 +1,167 @@
+[
+  {
+    "id": "Q01",
+    "question": "In field_note_028.txt, what is the key observation that includes the estimated schedule impact for D041?",
+    "expected_answer": "procurement is delayed due to vendor bidding disputes. Estimated schedule impact: ~9 weeks.",
+    "evidence": [
+      {
+        "file": "field_note_028.txt",
+        "match_hint": "Estimated schedule impact"
+      }
+    ]
+  },
+  {
+    "id": "Q02",
+    "question": "Which partner is listed in field_note_028.txt for district D041?",
+    "expected_answer": "HeatSafe Partners",
+    "evidence": [
+      {
+        "file": "field_note_028.txt",
+        "match_hint": "Partner:"
+      }
+    ]
+  },
+  {
+    "id": "Q03",
+    "question": "In field_note_045.txt, what is the key observation that includes the estimated schedule impact for D072?",
+    "expected_answer": "disbursement to the implementing partner is delayed. Estimated schedule impact: ~7 weeks.",
+    "evidence": [
+      {
+        "file": "field_note_045.txt",
+        "match_hint": "Estimated schedule impact"
+      }
+    ]
+  },
+  {
+    "id": "Q04",
+    "question": "Which partner is listed in field_note_045.txt for district D072?",
+    "expected_answer": "BlueRiver Implementers",
+    "evidence": [
+      {
+        "file": "field_note_045.txt",
+        "match_hint": "Partner:"
+      }
+    ]
+  },
+  {
+    "id": "Q05",
+    "question": "In field_note_027.txt, what is the key observation that includes the estimated schedule impact for D090?",
+    "expected_answer": "local leaders requested changes to design, delaying mobilization. Estimated schedule impact: ~5 weeks.",
+    "evidence": [
+      {
+        "file": "field_note_027.txt",
+        "match_hint": "Estimated schedule impact"
+      }
+    ]
+  },
+  {
+    "id": "Q06",
+    "question": "Which partner is listed in field_note_027.txt for district D090?",
+    "expected_answer": "RapidRelief Local",
+    "evidence": [
+      {
+        "file": "field_note_027.txt",
+        "match_hint": "Partner:"
+      }
+    ]
+  },
+  {
+    "id": "Q07",
+    "question": "In field_note_020.txt, what is the key observation that includes the estimated schedule impact for D040?",
+    "expected_answer": "rework was required due to poor drainage gradients. Estimated schedule impact: ~4 weeks.",
+    "evidence": [
+      {
+        "file": "field_note_020.txt",
+        "match_hint": "Estimated schedule impact"
+      }
+    ]
+  },
+  {
+    "id": "Q08",
+    "question": "Which partner is listed in field_note_020.txt for district D040?",
+    "expected_answer": "GreenWorks Alliance",
+    "evidence": [
+      {
+        "file": "field_note_020.txt",
+        "match_hint": "Partner:"
+      }
+    ]
+  },
+  {
+    "id": "Q09",
+    "question": "In field_note_086.txt, what is the key observation that includes the estimated schedule impact for D050?",
+    "expected_answer": "community meetings revealed resistance to the proposed site. Estimated schedule impact: ~11 weeks.",
+    "evidence": [
+      {
+        "file": "field_note_086.txt",
+        "match_hint": "Estimated schedule impact"
+      }
+    ]
+  },
+  {
+    "id": "Q10",
+    "question": "Which partner is listed in field_note_086.txt for district D050?",
+    "expected_answer": "GreenWorks Alliance",
+    "evidence": [
+      {
+        "file": "field_note_086.txt",
+        "match_hint": "Partner:"
+      }
+    ]
+  },
+  {
+    "id": "Q11",
+    "question": "In field_note_080.txt, what is the key observation that includes the estimated schedule impact for D096?",
+    "expected_answer": "local leaders requested changes to design, delaying mobilization. Estimated schedule impact: ~7 weeks.",
+    "evidence": [
+      {
+        "file": "field_note_080.txt",
+        "match_hint": "Estimated schedule impact"
+      }
+    ]
+  },
+  {
+    "id": "Q12",
+    "question": "Which partner is listed in field_note_080.txt for district D096?",
+    "expected_answer": "SunBuild Initiative",
+    "evidence": [
+      {
+        "file": "field_note_080.txt",
+        "match_hint": "Partner:"
+      }
+    ]
+  },
+  {
+    "id": "Q13",
+    "question": "In field_note_002.txt, what is the key observation that includes the estimated schedule impact for D013?",
+    "expected_answer": "partner team is understaffed and reporting is delayed. Estimated schedule impact: ~5 weeks.",
+    "evidence": [
+      {
+        "file": "field_note_002.txt",
+        "match_hint": "Estimated schedule impact"
+      }
+    ]
+  },
+  {
+    "id": "Q14",
+    "question": "Which partner is listed in field_note_002.txt for district D013?",
+    "expected_answer": "InfraTrust Consortium",
+    "evidence": [
+      {
+        "file": "field_note_002.txt",
+        "match_hint": "Partner:"
+      }
+    ]
+  },
+  {
+    "id": "Q15",
+    "question": "In field_note_007.txt, what is the key observation that includes the estimated schedule impact for D022?",
+    "expected_answer": "field engineers require additional technical support. Estimated schedule impact: ~6 weeks.",
+    "evidence": [
+      {
+        "file": "field_note_007.txt",
+        "match_hint": "Estimated schedule impact"
+      }
+    ]
+  }
+]

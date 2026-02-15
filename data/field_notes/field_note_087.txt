@@ -1,0 +1,20 @@
+Field Note | 2024-05-05
+Country: Cordania | Region: North
+District: D078 (D-078)
+Partner: SunBuild Initiative
+Intervention: Community Response Training (Enhanced) [I09]
+
+Summary: Partner check-in completed. Severity rating (1–5): 3.
+
+Context note: Recent heatwaves have been more frequent than last year, affecting work hours and community attendance.
+
+Key observations:
+- GPS-tagged photos are missing for several sites. Estimated schedule impact: ~6 weeks.
+- Note: partner also reported 'no material delays' this month, which conflicts with the observed status.
+- Budget note: indicative cost pressure of ~14.2% versus plan (not yet approved).
+
+Mitigation actions proposed:
+- Standardize indicators; audit data capture; implement validation checks.
+
+Next steps:
+- Escalate key bottlenecks to the national steering committee.

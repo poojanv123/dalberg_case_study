@@ -1,0 +1,19 @@
+intervention_id,intervention_name,hazard_focus,unit_cost_usd,expected_risk_reduction_mean,expected_risk_reduction_low,expected_risk_reduction_high,implementation_months,complexity_1_5,prerequisites
+I01,Drainage Rehabilitation (Basic),flood,969000,0.12,0.076,0.176,13,3,None
+I02,River Embankment Reinforcement (Standard),flood,1263000,0.149,0.106,0.213,14,2,Community consultation
+I03,Flood Shelter Retrofit (Enhanced),flood,638000,0.24,0.184,0.299,22,4,Partner capacity review
+I04,Watershed Reforestation (Basic),flood,459000,0.118,0.082,0.158,22,4,Partner capacity review
+I05,Early Warning System Upgrade (Standard),both,488000,0.19,0.154,0.238,22,4,None
+I06,Critical Facility Resilience (Enhanced),both,471000,0.277,0.233,0.354,19,3,Basic engineering assessment
+I07,Green Infrastructure (Urban) (Basic),both,880000,0.162,0.103,0.225,16,3,Partner capacity review
+I08,Water Storage & Distribution (Standard),both,381000,0.206,0.153,0.281,19,4,Partner capacity review
+I09,Community Response Training (Enhanced),both,518000,0.197,0.164,0.275,22,5,Partner capacity review
+I10,Heat-Resilient Roofing Subsidy (Basic),heat,344000,0.119,0.071,0.18,13,1,Permitting required
+I11,Cooling Centers & Outreach (Standard),heat,532000,0.192,0.157,0.233,14,3,Partner capacity review
+I12,Reflective Road Surface (Enhanced),heat,1042000,0.2,0.153,0.24,16,2,Partner capacity review
+I13,Drainage Rehabilitation (Basic),flood,1113000,0.152,0.095,0.198,20,4,Permitting required
+I14,River Embankment Reinforcement (Standard),flood,897000,0.198,0.14,0.249,21,4,Partner capacity review
+I15,Flood Shelter Retrofit (Enhanced),flood,777000,0.243,0.21,0.315,14,3,Permitting required
+I16,Watershed Reforestation (Basic),flood,603000,0.147,0.102,0.189,18,4,Basic engineering assessment
+I17,Early Warning System Upgrade (Standard),both,1279000,0.138,0.098,0.212,17,3,None
+I18,Critical Facility Resilience (Enhanced),both,694000,0.167,0.115,0.213,20,4,Partner capacity review

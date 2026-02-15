@@ -1,0 +1,151 @@
+snippet_id,source_file,district_id,text,risk_category
+S0001,field_note_071.txt,D059,materials delivered were below specification and had to be replaced. Estimated schedule impact: ~12 weeks.,contractor_quality
+S0002,field_note_062.txt,D011,field engineers require additional technical support. Estimated schedule impact: ~11 weeks.,partner_capacity
+S0003,field_note_051.txt,D032,tender had to be re-issued after insufficient bids. Estimated schedule impact: ~8 weeks.,procurement_delay
+S0004,field_note_078.txt,D075,budget reallocation approvals are pending. Estimated schedule impact: ~5 weeks.,financing_disbursement
+S0005,field_note_015.txt,D048,participation in training sessions is lower than expected. Estimated schedule impact: ~4 weeks.,community_buy_in
+S0006,field_note_059.txt,D014,contractor workmanship failed the first quality inspection. Estimated schedule impact: ~2 weeks.,contractor_quality
+S0007,field_note_085.txt,D021,community meetings revealed resistance to the proposed site. Estimated schedule impact: ~3 weeks.,community_buy_in
+S0008,field_note_035.txt,D112,critical components are back-ordered with the supplier. Estimated schedule impact: ~5 weeks.,supply_chain
+S0009,field_note_008.txt,D012,community meetings revealed resistance to the proposed site. Estimated schedule impact: ~5 weeks.,community_buy_in
+S0010,field_note_029.txt,D056,tender had to be re-issued after insufficient bids. Estimated schedule impact: ~3 weeks.,procurement_delay
+S0011,field_note_061.txt,D011,budget reallocation approvals are pending. Estimated schedule impact: ~2 weeks.,financing_disbursement
+S0012,field_note_005.txt,D095,"local leaders requested changes to design, delaying mobilization. Estimated schedule impact: ~5 weeks.",community_buy_in
+S0013,field_note_068.txt,D095,GPS-tagged photos are missing for several sites. Estimated schedule impact: ~5 weeks.,m_e_data_gaps
+S0014,field_note_016.txt,D043,community members reported informal payment requests. Estimated schedule impact: ~7 weeks.,governance_fraud
+S0015,field_note_031.txt,D089,budget reallocation approvals are pending. Estimated schedule impact: ~6 weeks.,financing_disbursement
+S0016,field_note_076.txt,D041,customs clearance for materials is taking longer than planned. Estimated schedule impact: ~9 weeks.,procurement_delay
+S0017,field_note_064.txt,D113,flooding disrupted access roads and halted work for several days. Estimated schedule impact: ~4 weeks.,extreme_event_disruption
+S0018,field_note_046.txt,D114,flooding disrupted access roads and halted work for several days. Estimated schedule impact: ~5 weeks.,extreme_event_disruption
+S0019,field_note_009.txt,D003,community members reported informal payment requests. Estimated schedule impact: ~9 weeks.,governance_fraud
+S0020,field_note_050.txt,D120,field engineers require additional technical support. Estimated schedule impact: ~8 weeks.,partner_capacity
+S0021,field_note_052.txt,D019,"local leaders requested changes to design, delaying mobilization. Estimated schedule impact: ~1 weeks.",community_buy_in
+S0022,field_note_011.txt,D052,community meetings revealed resistance to the proposed site. Estimated schedule impact: ~7 weeks.,community_buy_in
+S0023,field_note_086.txt,D050,community meetings revealed resistance to the proposed site. Estimated schedule impact: ~11 weeks.,community_buy_in
+S0024,field_note_026.txt,D016,critical components are back-ordered with the supplier. Estimated schedule impact: ~9 weeks.,supply_chain
+S0025,field_note_007.txt,D022,field engineers require additional technical support. Estimated schedule impact: ~6 weeks.,partner_capacity
+S0026,field_note_017.txt,D017,community meetings revealed resistance to the proposed site. Estimated schedule impact: ~4 weeks.,community_buy_in
+S0027,field_note_019.txt,D039,community meetings revealed resistance to the proposed site. Estimated schedule impact: ~9 weeks.,community_buy_in
+S0028,field_note_004.txt,D079,right-of-way approvals are incomplete for the planned alignment. Estimated schedule impact: ~7 weeks.,permitting_regulatory
+S0029,field_note_073.txt,D057,cashflow constraints are limiting contractor advance payments. Estimated schedule impact: ~2 weeks.,financing_disbursement
+S0030,field_note_054.txt,D022,community members reported informal payment requests. Estimated schedule impact: ~3 weeks.,governance_fraud
+S0031,field_note_080.txt,D096,"local leaders requested changes to design, delaying mobilization. Estimated schedule impact: ~7 weeks.",community_buy_in
+S0032,field_note_001.txt,D114,disbursement to the implementing partner is delayed. Estimated schedule impact: ~11 weeks.,financing_disbursement
+S0033,field_note_043.txt,D037,materials delivered were below specification and had to be replaced. Estimated schedule impact: ~13 weeks.,contractor_quality
+S0034,field_note_084.txt,D024,GPS-tagged photos are missing for several sites. Estimated schedule impact: ~8 weeks.,m_e_data_gaps
+S0035,field_note_025.txt,D028,transport disruptions are impacting delivery schedules. Estimated schedule impact: ~5 weeks.,supply_chain
+S0036,field_note_082.txt,D097,participation in training sessions is lower than expected. Estimated schedule impact: ~5 weeks.,community_buy_in
+S0037,field_note_039.txt,D022,flooding disrupted access roads and halted work for several days. Estimated schedule impact: ~3 weeks.,extreme_event_disruption
+S0038,field_note_014.txt,D084,asset registers do not match delivered quantities. Estimated schedule impact: ~8 weeks.,governance_fraud
+S0039,field_note_055.txt,D017,participation in training sessions is lower than expected. Estimated schedule impact: ~4 weeks.,community_buy_in
+S0040,field_note_034.txt,D090,participation in training sessions is lower than expected. Estimated schedule impact: ~4 weeks.,community_buy_in
+S0041,field_note_032.txt,D106,materials delivered were below specification and had to be replaced. Estimated schedule impact: ~9 weeks.,contractor_quality
+S0042,field_note_030.txt,D039,community meetings revealed resistance to the proposed site. Estimated schedule impact: ~7 weeks.,community_buy_in
+S0043,field_note_044.txt,D045,environmental permitting is pending at the provincial office. Estimated schedule impact: ~9 weeks.,permitting_regulatory
+S0044,field_note_012.txt,D091,GPS-tagged photos are missing for several sites. Estimated schedule impact: ~4 weeks.,m_e_data_gaps
+S0045,field_note_081.txt,D109,heavy rainfall damaged stored materials on-site. Estimated schedule impact: ~7 weeks.,extreme_event_disruption
+S0046,field_note_077.txt,D091,contractor workmanship failed the first quality inspection. Estimated schedule impact: ~3 weeks.,contractor_quality
+S0047,field_note_057.txt,D117,critical components are back-ordered with the supplier. Estimated schedule impact: ~10 weeks.,supply_chain
+S0048,field_note_072.txt,D008,community members reported informal payment requests. Estimated schedule impact: ~8 weeks.,governance_fraud
+S0049,field_note_006.txt,D109,flooding disrupted access roads and halted work for several days. Estimated schedule impact: ~4 weeks.,extreme_event_disruption
+S0050,field_note_027.txt,D090,"local leaders requested changes to design, delaying mobilization. Estimated schedule impact: ~5 weeks.",community_buy_in
+S0051,field_note_023.txt,D009,rework was required due to poor drainage gradients. Estimated schedule impact: ~8 weeks.,contractor_quality
+S0052,field_note_020.txt,D040,rework was required due to poor drainage gradients. Estimated schedule impact: ~4 weeks.,contractor_quality
+S0053,field_note_079.txt,D105,contractor workmanship failed the first quality inspection. Estimated schedule impact: ~3 weeks.,contractor_quality
+S0054,field_note_042.txt,D032,community members reported informal payment requests. Estimated schedule impact: ~1 weeks.,governance_fraud
+S0055,field_note_067.txt,D038,rework was required due to poor drainage gradients. Estimated schedule impact: ~9 weeks.,contractor_quality
+S0056,field_note_022.txt,D062,budget reallocation approvals are pending. Estimated schedule impact: ~6 weeks.,financing_disbursement
+S0057,field_note_033.txt,D060,community meetings revealed resistance to the proposed site. Estimated schedule impact: ~9 weeks.,community_buy_in
+S0058,field_note_010.txt,D051,a heatwave reduced labor productivity and shifted work hours. Estimated schedule impact: ~5 weeks.,extreme_event_disruption
+S0059,field_note_018.txt,D070,environmental permitting is pending at the provincial office. Estimated schedule impact: ~11 weeks.,permitting_regulatory
+S0060,field_note_088.txt,D047,participation in training sessions is lower than expected. Estimated schedule impact: ~9 weeks.,community_buy_in
+S0061,field_note_045.txt,D072,disbursement to the implementing partner is delayed. Estimated schedule impact: ~7 weeks.,financing_disbursement
+S0062,field_note_037.txt,D066,"local leaders requested changes to design, delaying mobilization. Estimated schedule impact: ~3 weeks.",community_buy_in
+S0063,field_note_047.txt,D050,rework was required due to poor drainage gradients. Estimated schedule impact: ~7 weeks.,contractor_quality
+S0064,field_note_038.txt,D030,cashflow constraints are limiting contractor advance payments. Estimated schedule impact: ~1 weeks.,financing_disbursement
+S0065,field_note_063.txt,D093,cement deliveries are delayed due to regional shortages. Estimated schedule impact: ~8 weeks.,supply_chain
+S0066,field_note_028.txt,D041,procurement is delayed due to vendor bidding disputes. Estimated schedule impact: ~9 weeks.,procurement_delay
+S0067,field_note_048.txt,D003,participation in training sessions is lower than expected. Estimated schedule impact: ~8 weeks.,community_buy_in
+S0068,field_note_040.txt,D105,materials delivered were below specification and had to be replaced. Estimated schedule impact: ~5 weeks.,contractor_quality
+S0069,field_note_075.txt,D100,a heatwave reduced labor productivity and shifted work hours. Estimated schedule impact: ~4 weeks.,extreme_event_disruption
+S0070,field_note_021.txt,D034,community members reported informal payment requests. Estimated schedule impact: ~5 weeks.,governance_fraud
+S0071,field_note_087.txt,D078,GPS-tagged photos are missing for several sites. Estimated schedule impact: ~6 weeks.,m_e_data_gaps
+S0072,field_note_013.txt,D092,procurement is delayed due to vendor bidding disputes. Estimated schedule impact: ~8 weeks.,procurement_delay
+S0073,field_note_065.txt,D045,right-of-way approvals are incomplete for the planned alignment. Estimated schedule impact: ~6 weeks.,permitting_regulatory
+S0074,field_note_003.txt,D009,a heatwave reduced labor productivity and shifted work hours. Estimated schedule impact: ~11 weeks.,extreme_event_disruption
+S0075,field_note_060.txt,D076,turnover in the partner’s project manager role affected continuity. Estimated schedule impact: ~5 weeks.,partner_capacity
+S0076,field_note_049.txt,D066,"local leaders requested changes to design, delaying mobilization. Estimated schedule impact: ~11 weeks.",community_buy_in
+S0077,field_note_066.txt,D088,budget reallocation approvals are pending. Estimated schedule impact: ~3 weeks.,financing_disbursement
+S0078,field_note_056.txt,D068,procurement is delayed due to vendor bidding disputes. Estimated schedule impact: ~5 weeks.,procurement_delay
+S0079,field_note_089.txt,D015,contractor workmanship failed the first quality inspection. Estimated schedule impact: ~9 weeks.,contractor_quality
+S0080,field_note_024.txt,D055,baseline survey coverage is below the minimum threshold. Estimated schedule impact: ~3 weeks.,m_e_data_gaps
+S0081,field_note_033.txt,D104,budget reallocation approvals are pending.,financing_disbursement
+S0082,field_note_036.txt,D026,cashflow constraints are limiting contractor advance payments.,financing_disbursement
+S0083,field_note_039.txt,D108,monitoring data is incomplete for the last reporting cycle.,m_e_data_gaps
+S0084,field_note_053.txt,D075,procurement is delayed due to vendor bidding disputes.,procurement_delay
+S0085,field_note_088.txt,D093,transport disruptions are impacting delivery schedules.,supply_chain
+S0086,field_note_062.txt,D099,field engineers require additional technical support.,partner_capacity
+S0087,field_note_067.txt,D012,transport disruptions are impacting delivery schedules.,supply_chain
+S0088,field_note_041.txt,D042,heavy rainfall damaged stored materials on-site.,extreme_event_disruption
+S0089,field_note_024.txt,D044,disbursement to the implementing partner is delayed.,financing_disbursement
+S0090,field_note_033.txt,D072,participation in training sessions is lower than expected.,community_buy_in
+S0091,field_note_081.txt,D067,monitoring data is incomplete for the last reporting cycle.,m_e_data_gaps
+S0092,field_note_028.txt,D119,anomalies were detected in invoice amounts compared to market rates.,governance_fraud
+S0093,field_note_027.txt,D060,right-of-way approvals are incomplete for the planned alignment.,permitting_regulatory
+S0094,field_note_017.txt,D066,transport disruptions are impacting delivery schedules.,supply_chain
+S0095,field_note_063.txt,D028,partner team is understaffed and reporting is delayed.,partner_capacity
+S0096,field_note_047.txt,D072,cashflow constraints are limiting contractor advance payments.,financing_disbursement
+S0097,field_note_079.txt,D051,transport disruptions are impacting delivery schedules.,supply_chain
+S0098,field_note_020.txt,D070,regulators requested additional documentation and site visits.,permitting_regulatory
+S0099,field_note_019.txt,D071,community meetings revealed resistance to the proposed site.,community_buy_in
+S0100,field_note_008.txt,D103,asset registers do not match delivered quantities.,governance_fraud
+S0101,field_note_036.txt,D111,customs clearance for materials is taking longer than planned.,procurement_delay
+S0102,field_note_018.txt,D105,"local leaders requested changes to design, delaying mobilization.",community_buy_in
+S0103,field_note_017.txt,D070,budget reallocation approvals are pending.,financing_disbursement
+S0104,field_note_089.txt,D022,community meetings revealed resistance to the proposed site.,community_buy_in
+S0105,field_note_088.txt,D097,community meetings revealed resistance to the proposed site.,community_buy_in
+S0106,field_note_063.txt,D053,asset registers do not match delivered quantities.,governance_fraud
+S0107,field_note_029.txt,D004,field engineers require additional technical support.,partner_capacity
+S0108,field_note_012.txt,D047,critical components are back-ordered with the supplier.,supply_chain
+S0109,field_note_020.txt,D088,baseline survey coverage is below the minimum threshold.,m_e_data_gaps
+S0110,field_note_006.txt,D019,critical components are back-ordered with the supplier.,supply_chain
+S0111,field_note_013.txt,D001,customs clearance for materials is taking longer than planned.,procurement_delay
+S0112,field_note_043.txt,D076,partner team is understaffed and reporting is delayed.,partner_capacity
+S0113,field_note_025.txt,D021,cement deliveries are delayed due to regional shortages.,supply_chain
+S0114,field_note_026.txt,D055,monitoring data is incomplete for the last reporting cycle.,m_e_data_gaps
+S0115,field_note_085.txt,D031,right-of-way approvals are incomplete for the planned alignment.,permitting_regulatory
+S0116,field_note_021.txt,D028,cashflow constraints are limiting contractor advance payments.,financing_disbursement
+S0117,field_note_055.txt,D112,baseline survey coverage is below the minimum threshold.,m_e_data_gaps
+S0118,field_note_027.txt,D110,budget reallocation approvals are pending.,financing_disbursement
+S0119,field_note_072.txt,D081,heavy rainfall damaged stored materials on-site.,extreme_event_disruption
+S0120,field_note_028.txt,D062,rework was required due to poor drainage gradients.,contractor_quality
+S0121,field_note_011.txt,D026,materials delivered were below specification and had to be replaced.,contractor_quality
+S0122,field_note_089.txt,D092,anomalies were detected in invoice amounts compared to market rates.,governance_fraud
+S0123,field_note_027.txt,D015,participation in training sessions is lower than expected.,community_buy_in
+S0124,field_note_055.txt,D056,environmental permitting is pending at the provincial office.,permitting_regulatory
+S0125,field_note_083.txt,D071,participation in training sessions is lower than expected.,community_buy_in
+S0126,field_note_037.txt,D102,field engineers require additional technical support.,partner_capacity
+S0127,field_note_002.txt,D047,baseline survey coverage is below the minimum threshold.,m_e_data_gaps
+S0128,field_note_035.txt,D067,a heatwave reduced labor productivity and shifted work hours.,extreme_event_disruption
+S0129,field_note_014.txt,D063,community meetings revealed resistance to the proposed site.,community_buy_in
+S0130,field_note_046.txt,D072,right-of-way approvals are incomplete for the planned alignment.,permitting_regulatory
+S0131,field_note_082.txt,D049,asset registers do not match delivered quantities.,governance_fraud
+S0132,field_note_042.txt,D007,critical components are back-ordered with the supplier.,supply_chain
+S0133,field_note_060.txt,D088,materials delivered were below specification and had to be replaced.,contractor_quality
+S0134,field_note_068.txt,D045,transport disruptions are impacting delivery schedules.,supply_chain
+S0135,field_note_038.txt,D013,partner team is understaffed and reporting is delayed.,partner_capacity
+S0136,field_note_006.txt,D011,anomalies were detected in invoice amounts compared to market rates.,governance_fraud
+S0137,field_note_073.txt,D068,flooding disrupted access roads and halted work for several days.,extreme_event_disruption
+S0138,field_note_059.txt,D050,asset registers do not match delivered quantities.,governance_fraud
+S0139,field_note_003.txt,D062,cement deliveries are delayed due to regional shortages.,supply_chain
+S0140,field_note_018.txt,D115,disbursement to the implementing partner is delayed.,financing_disbursement
+S0141,field_note_012.txt,D014,monitoring data is incomplete for the last reporting cycle.,m_e_data_gaps
+S0142,field_note_003.txt,D069,partner team is understaffed and reporting is delayed.,partner_capacity
+S0143,field_note_078.txt,D096,rework was required due to poor drainage gradients.,contractor_quality
+S0144,field_note_020.txt,D016,budget reallocation approvals are pending.,financing_disbursement
+S0145,field_note_042.txt,D061,regulators requested additional documentation and site visits.,permitting_regulatory
+S0146,field_note_089.txt,D115,flooding disrupted access roads and halted work for several days.,extreme_event_disruption
+S0147,field_note_066.txt,D052,right-of-way approvals are incomplete for the planned alignment.,permitting_regulatory
+S0148,field_note_063.txt,D054,procurement is delayed due to vendor bidding disputes.,procurement_delay
+S0149,field_note_057.txt,D077,community meetings revealed resistance to the proposed site.,community_buy_in
+S0150,field_note_076.txt,D099,materials delivered were below specification and had to be replaced.,contractor_quality
