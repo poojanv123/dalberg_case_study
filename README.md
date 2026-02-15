@@ -8,11 +8,11 @@ Submission package contents:
    
 2.	output: output files for each task
 	
-a.	dist_int_delivery.csv: predicted delivery feasibility for each district-intervention pair based on the ML model in task A
+   a.	dist_int_delivery.csv: predicted delivery feasibility for each district-intervention pair based on the ML model in task A
 
-b.	portfolio_allocation.csv: allocated funding for district-intervention pair for task B
+   b.	portfolio_allocation.csv: allocated funding for district-intervention pair for task B
 
-c.	top10_codes.json and top10_districts.csv: top 10 districts with highest allocation from task B
+   c.	top10_codes.json and top10_districts.csv: top 10 districts with highest allocation from task B
 
 d.	plots: visualizations from outputs for task A
 
